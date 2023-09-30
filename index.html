@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal portfolio website</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
 </head>
+
 <body>
 
-    <script src="/script.js"></script>
-    
-    <div class="hero">
-        <nav>
-            <img src="manish2222.png" alt="Girl in a jacket" width="100" height="150">
-             <class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Hire me </a></li>
-                    </ul>
-        </nav>
-        
-        <div class="detel">
-            <h3>Hello</h3>
-            <h1> I am Manish <span>Jha</span></h1>
-            <p>This is my offical portfolio website to shows all 
-                <br>Details and work experience.
-                <br>Below is the cv you can view for your refrence.Click on downlod <button></button>
-            </p>
-            <a href="Manish CV (1).pdf">Downlod CV</a>
+
+
+    <div class="container">
+
+        <div>
+            <label for="displayInput"></label>
+            <input type="text" id="displayInput" readonly>
+            <button type="button" onclick="submitbutton()">Submit</button>
         </div>
-<div class="images">
-    <img src="manish11.jpeg" alt=" a man with water" width="100" height="120"  class="raj">
 
-    </class>   
+        <form id="socialMediaForm" class="social-media">
+            <label>
+                <input type="checkbox" name="socialMedia" value="Twitter" data-link="https://twitter.com">
+                Twitter
+
+            </label>
+            <label>
+                <input type="checkbox" name="socialMedia" value="Facebook" data-link="https://facebook.com">
+                Facebook
+            </label>
+            <label>
+                <input type="checkbox" name="socialMedia" value="Instagram" data-link="https://instagram.com">
+                Instagram
+            </label>
+            <label>
+                <input type="checkbox" name="socialMedia" value="LinkedIn"
+                    data-link="https://linkedin.com/company/example"> LinkedIn
+
+            </label>
+        </form>
+
+
+
 </body>
+
 </html>
-
-
-
-
-
-
-
